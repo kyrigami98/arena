@@ -1,0 +1,1797 @@
+
+<!-- saved from url=(0112)http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modal -->
+<html><!-- Mirrored from getbootstrap.com/docs/4.0/components/modal/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Aug 2017 11:12:17 GMT --><!-- Added by HTTrack --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- /Added by HTTrack -->
+
+    
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  
+    Modal
+  
+</title>
+
+<!-- Twitter -->
+<meta name="twitter:site" content="@getbootstrap">
+<meta name="twitter:creator" content="@getbootstrap">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Modal">
+  <meta name="twitter:description" content="Use Bootstrap&#39;s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.">
+  <meta name="twitter:image" content="../../../../assets/brand/bootstrap-social-logo.png">
+
+
+<!-- Facebook -->
+
+  <meta property="og:url" content="index.html">
+  <meta property="og:title" content="Modal">
+  <meta property="og:description" content="Use Bootstrap&#39;s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.">
+  <meta property="og:type" content="website">
+
+<meta property="og:image" content="../../../../assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content="../../../../assets/brand/bootstrap-social.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Meta -->
+<meta name="description" content="The most popular HTML, CSS, and JS library in the world.">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+
+<!-- Bootstrap core CSS -->
+
+  <style class="anchorjs"></style><link href="./Modal_files/bootstrap.min.css" rel="stylesheet">
+
+
+<!-- Documentation extras -->
+
+<link rel="stylesheet" href="./Modal_files/docsearch.min.css">
+
+<link href="./Modal_files/docs.min.css" rel="stylesheet">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/apple-touch-icon.png">
+<link rel="icon" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/favicon.ico">
+
+<script async="" src="./Modal_files/analytics.js"></script><script async="" src="./Modal_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../../../www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-146052-10', 'getbootstrap.com');
+  ga('send', 'pageview');
+</script>
+
+  <script id="_carbonads_projs" type="text/javascript" src="http://srv.carbonads.net/ads/C6AILKT.json?segment=placement:getbootstrapcom&amp;callback=_carbonads_go"></script><style type="text/css">:root topadblock, :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"], :root input[onclick^="window.open('http://www.friendlyduck.com/"], :root input[onclick^="window.open('http://www.FriendlyDuck.com/"], :root img[alt^="Fuckbook"], :root iframe[src^="http://cdn1.adexprt.com/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root div[id^="proadszone-"], :root div[id^="mainads"], :root div[id^="lazyad-"], :root div[id^="google_dfp_"], :root div[id^="dmRosAdWrapper"], :root div[id^="div_ad_stack_"], :root div[id^="div-adtech-ad-"], :root iframe[id^="google_ads_iframe"], :root div[id^="crt-"][style], :root div[id^="cns_ads_"], :root div[id^="ads300_250-widget"], :root iframe[src^="http://cdn2.adexprt.com/"], :root div[id^="ads300_100-widget"], :root div[id^="ads250_250-widget"], :root div[id^="adrotate_widgets-"], :root div[id^="ad_script_"], :root div[id^="ad-server-"], :root div[id^="acm-ad-tag-"], :root div[id^="MarketGid"], :root div[id^="ADV-SLOT-"], :root div[class^="proadszone-"], :root div[class^="BlockAdvert-"], :root div[class$="dealnews"] > .dealnews, :root div > [class][onclick*=".updateAnalyticsEvents"], :root bottomadblock, :root aside[id^="div-gpt-ad"], :root a[target="_blank"][href^="http://api.taboola.com/"], :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"], :root iframe[src^="http://static.mozo.com.au/strips/"], :root a[href^="https://www.spyoff.com/"], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[href^="https://www.oboom.com/ad/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://www.firstload.com/affiliate/"], :root a[href^="https://www.adskeeper.co.uk/"], :root a[href^="https://windscribe.com/promo/"], :root a[href^="https://trust.zone/go/r.php?RID="], :root div[class^="gemini-ad"], :root a[href^="https://torguard.net/aff.php"], :root div[id^="YFBMSN"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://go.ad2up.com/"], :root a[href^="https://farm.plista.com/pets"], :root a[href^="https://click.plista.com/pets"], :root a[href^="https://chaturbate.com/affiliates/"], :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="https://adhealers.com/"], :root a[href^="https://ad.atdmt.com/"], :root a[href^="http://xtgem.com/click?"], :root div[itemtype="http://schema.org/WPAdBlock"], :root a[href^="http://xads.zedo.com/"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root a[href^="http://www1.clickdownloader.com/"], :root a[href^="http://www.zergnet.com/i/"], :root a[href^="http://www.usearchmedia.com/signup?"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="http://www.tirerack.com/affiliates/"], :root a[href^="http://www.text-link-ads.com/"], :root div[id^="div_openx_ad_"], :root a[href^="http://www.streamate.com/exports/"], :root a[href^="http://www.sfippa.com/"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www.sex.com/videos/?utm_"], :root a[href^="http://www.sex.com/?utm_"], :root a[href^="http://bluehost.com/track/"], :root a[href^="http://www.seekbang.com/cs/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"], :root a[href^="http://www.plus500.com/?id="], :root div[id^="google_ads_iframe_"], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://www.pheedo.com/"], :root a[href^="http://guideways.info/"], :root #\5f _nq__hh[style="display:block!important"], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root a[href^="http://www.myvpn.pro/"], :root a[href^="http://liversely.net/"], :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href^="http://www.download-provider.org/"], :root a[href^="http://www.installads.net/"], :root a[href^="http://www.incredimail.com/?id="], :root a[href^="http://tracking.toroadvertising.com/"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="http://cdn3.adbrau.com/"], :root a[href^="http://www.friendlyadvertisements.com/"], :root a[href^="http://ul.to/ref/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="http://www.mysuperpharm.com/"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://duckcash.eu/"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href*=".trust.zone"], :root a[href^="http://www.firstclass-download.com/"], :root a[href^="http://www.faceporn.net/free?"], :root a[href^="http://clicks.binarypromos.com/"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="http://www.liutilities.com/"], :root a[href^="http://tracking.deltamediallc.com/"], :root a[href^="http://www.dl-provider.com/search/"], :root a[href^="http://www.cash-duck.com/"], :root a[href^="http://www.bet365.com/"][href*="?affiliate="], :root a[href^="http://www.bet365.com/"][href*="&affiliate="], :root a[href^="http://www.badoink.com/go.php?"], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="http://www.adskeeper.co.uk/"], :root div[id^="advads-"], :root a[href^="http://www.ringtonematcher.com/"], :root a[href^="http://www.adshost2.com/"], :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://www.brightwheel.info/"], :root a[href^="http://www.1clickdownloader.com/"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root a[href^="http://prousa.work/"], :root a[href^="http://see-work.info/"], :root a[href^="http://websitedhoome.com/"], :root a[href^="http://www.paddypower.com/?AFF_ID="], :root a[href^="http://uploaded.net/ref/"], :root a[href^="http://track.adform.net/"], :root a[href^="http://t.wowtrk.com/"], :root a[href^="http://adprovider.adlure.net/"], :root a[href^="http://tezfiles.com/pr/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="http://www.easydownloadnow.com/"], :root .mw > #rcnt > #center_col > #taw > .c, :root a[href^="http://taboola-"][href*="/redirect.php?app.type="], :root a[href^="http://t.mdn2015x3.com/"], :root a[href^="http://clickandjoinyourgirl.com/"], :root a[href^="http://webtrackerplus.com/"], :root a[href^="http://b.bestcompleteusa.info/"], :root a[href^="http://t.mdn2015x2.com/"], :root a[href^="http://sharesuper.info/"], :root a[href^="http://getlinksinaseconds.com/"], :root a[href^="http://secure.signup-way.com/"], :root a[href^="http://secure.signup-page.com/"], :root [onclick^="window.open('http://adultfriendfinder.com/search/"], :root a[href^="http://secure.hostgator.com/~affiliat/"], :root a[href^="http://ryushare.com/affiliate.python"], :root a[href^="http://record.commissionking.com/"], :root a[href^="http://record.betsafe.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root a[href^="http://www.epicgameads.com/"], :root a[href^="http://gca.sh/user/register?ref="], :root a[href^="http://promos.bwin.com/"], :root a[href^="http://prochina.link/"], :root a[href^="http://z1.zedo.com/"], :root a[href^="http://pokershibes.com/index.php?ref="], :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"], :root a[href^="http://searchtabnew.com/"], :root a[href^="http://pan.adraccoon.com?"], :root a[href^="http://n217adserv.com/"], :root a[href^="http://mojofun.info/"], :root a[href^="http://mmo123.co/"], :root .plistaList > .itemLinkPET, :root a[href^="http://mgid.com/"], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="http://marketgid.com"], :root a[href^="http://www.socialsex.com/"], :root a[href^="http://www.affbuzzads.com/affiliate/"], :root a[href*=".qertewrt.com/"], :root a[href^="http://lp.ncdownloader.com/"], :root a[href*=".adsrv.eacdn.com/"] > img, :root a[href^="http://lp.ilivid.com/"], :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf, :root a[href^="http://lp.ezdownloadpro.info/"], :root a[href^="http://liversely.com/"], :root a[href^="http://latestdownloads.net/download.php?"], :root a[href^="http://keep2share.cc/pr/"], :root a[href^="http://k2s.cc/pr/"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root a[href^="http://green.trafficinvest.com/"], :root a[href^="http://jobitem.org/"], :root a[href^="//adbit.co/?a=Advertise&"], :root a[href^="http://istri.it/?"], :root a[href^="https://dltags.com/"], :root a[href^="http://onclickads.net/"], :root a[href^="http://www.terraclicks.com/"], :root a[href^="http://www.coinducks.com/"], :root a[href^="http://internalredirect.site/"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="http://greensmoke.com/"], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="http://farm.plista.com/pets"], :root a[href^="http://mo8mwxi1.com/"], :root div[id^="block-views-topheader-ad-block-"], :root a[href^="http://go.oclaserver.com/"], :root .__y_elastic .__y_item, :root a[href^="http://go.mobisla.com/"], :root a[href^="http://go.ad2up.com/"], :root a[href^="http://www.duckssolutions.com/"], :root a[href^="http://games.ucoz.ru/"][target="_blank"], :root div[id^="div-gpt-ad"], :root a[href^="http://fusionads.net"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://imads.integral-marketing.com/"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="http://adtrackone.eu/"], :root a[href^="http://finaljuyu.com/"], :root a[href^="http://tour.affbuzzads.com/"], :root a[href^="http://fileupnow.rocks/"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href^="http://fileloadr.com/"], :root a[href^="http://elitefuckbook.com/"], :root div[id^="ads300_600-widget"], :root a[href^="http://web.adblade.com/"], :root a[href^="http://elite-sex-finder.com/?"], :root a[href^="http://eclkmpsa.com/"], :root a[href^="http://dethao.com/"], :root a[href^="http://www.linkbucks.com/referral/"], :root a[href^="http://ddownload39.club/"], :root a[href^="http://www.moneyducks.com/"], :root a[href^="http://data.linoleictanzaniatitanic.com/"], :root a[href^="http://data.committeemenencyclopedicrepertory.info/"], :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="], :root a[href^="http://hdplugin.flashplayer-updates.com/"], :root a[href^="http://data.ad.yieldmanager.net/"], :root a[href^="http://www.babylon.com/welcome/index?affID"], :root a[href^="http://www.richducks.com/"], :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root #content > #center > .dose > .dosesingle, :root a[href^="http://d2.zedo.com/"], :root a[href^="http://contractallsticker.net/"], :root a[href^="http://codec.codecm.com/"], :root div[id^="ads120_600-widget"], :root a[href^="http://clk.directrev.com/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://clicks.guamwnvgashbkashawhgkhahshmashcas.pw/"], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root a[href^="http://www.wantstraffic.com/"], :root .lads[width="100%"][style="background:#FFF8DD"], :root a[href^="http://databass.info/"], :root a[href^="http://www.urmediazone.com/signup"], :root a[href^="http://ads.pheedo.com/"], :root a[href^="http://click.plista.com/pets"], :root a[href^="http://download-performance.com/"], :root .__ywvr .__y_item, :root a[href^="http://track.incognitovpn.com/"], :root a[href^="http://click.guamwnvgashbkashawhgkhahshmashcas.pw/"], :root a[href^="http://rekoverr.com/"], :root [lazy-ad="lefttop_banner"], :root a[href^="http://servicegetbook.net/"], :root a[href^="http://cinema.friendscout24.de?"], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://cdn.adsrvmedia.net/"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://dftrck.com/"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="http://www.clkads.com/adServe/"], :root a[href^="http://ads.expekt.com/affiliates/"], :root a[href^="http://callville.xyz/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root a[href^="http://feedads.g.doubleclick.net/"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="https://trklvs.com/"], :root a[href^="http://bestorican.com/"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root a[href^="http://bcp.crwdcntrl.net/"], :root a[href^="http://install.securewebsiteaccess.com/"], :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="http://www.torntvdl.com/"], :root a[href^="http://at.atwola.com/"], :root ADS-RIGHT, :root a[href^="http://affiliates.score-affiliates.com/"], :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="http://www.fducks.com/"], :root .icons-rss-feed + .icons-rss-feed div[class$="_item"], :root a[href^="http://aflrm.com/"], :root a[href^="http://partner.sbaffiliates.com/"], :root a[href^="http://affiliate.coral.co.uk/processing/"], :root a[href^="http://api.content.ad/"], :root a[href^="https://bs.serving-sys.com"], :root a[href^="https://atomidownload.com/"], :root a[href^="http://adserver.itsfogo.com/"], :root a[href^="http://adtransfer.net/"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root a[href^="http://adserving.unibet.com/"], :root a[href^="http://chaturbate.com/affiliates/"], :root a[href^="http://adserving.liveuniversenetwork.com/"], :root a[href^="http://adserver.adtechus.com/"], :root a[href^="http://buysellads.com/"], :root a[href^="http://down1oads.com/"], :root #\5f _mom_ad_12, :root a[href^="http://ads.integral-marketing.com/"], :root a[href^="http://adserver.adtech.de/"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root a[href^="http://aff.ironsocket.com/"], :root a[href^="http://ads.affbuzzads.com/"], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root a[href^="http://ads.ad-center.com/"], :root a[href^="http://adrunnr.com/"], :root a[href^="https://www.dsct1.com/"], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href^="http://www.liversely.net/"], :root a[href^="http://admingame.info/"], :root div[id^="q1-adset-"], :root a[href^="http://adfarm.mediaplex.com/"], :root #center_col > #taw > #tvcap > .rscontainer, :root a[href^="http://adf.ly/?id="], :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href^="http://adexprt.me/"], :root a[href^="http://www.flashx.tv/downloadthis"], :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root a[href^="http://www.menaon.com/installs/"], :root a[href^="http://www.sex.com/pics/?utm_"], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root a[href^="http://ad.yieldmanager.com/"], :root a[href^="http://ad.doubleclick.net/"], :root #resultspanel > #topads, :root a[href^="http://www.drowle.com/"], :root a[href^="http://abc2.mobile-10.com/"], :root a[href^="http://srvpub.com/"], :root a[href^="http://a.adquantix.com/"], :root a[href^="http://NowDownloadAll.com"], :root a[href^="http://www.ducksnetwork.com/"], :root a[href^="http://3wr110.net/"], :root a[href^="//ads.ad-center.com/"], :root a[href^="http://1phads.com/"], :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"], :root a[href^="https://www.secureupload.eu/suprerefid="], :root a[href^="http://yads.zedo.com/"], :root #mbEnd[cellspacing="0"][cellpadding="0"], :root a[href^="http://adclick.g.doubleclick.net/"], :root a[href^="//t.MtagMonetizationA.com/"], :root #\5f _mom_ad_2, :root a[href^="http://ads.activtrades.com/"], :root a[href^="//api.ad-goi.com/"], :root a[href^="http://www.clickansave.net/"], :root a[href^="http://get.slickvpn.com/"], :root [onclick*="content.ad/"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root a[href^=" http://n47adshostnet.com/"], :root a[href^="http://linksnappy.com/?ref="], :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"], :root a[href^="http://adtrack123.pl/"], :root .section-result[data-result-ad-type], :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content, :root a[href^=" http://ads.ad-center.com/"], :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB, :root a[href*="onclkds."], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="//srv.buysellads.com/"], :root div[itemtype="http://www.schema.org/WPAdBlock"], :root .__zinit .__y_item, :root .ch[onclick="ga(this,event)"], :root a[href^="https://ad.doubleclick.net/"], :root a[href*="letsadvertisetogether.com"], :root a[href^="http://fsoft4down.com/"], :root a[href*="ad2upapp.com/"], :root .ob_container a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root #mn #center_col > div > h2.spon:first-child, :root a[href*="=Adtracker"], :root a[href^="https://www.popads.net/users/"], :root a[href^="http://tracking.crazylead.com/"], :root a[href*="/cmd.php?ad="], :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[href^="http://galleries.pinballpublishernetwork.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href*=".adk2x.com/"], :root #\5f _admvnlb_modal_container, :root a[href^="http://www.duckcash.eu/"], :root a[href^="http://api.ringtonematcher.com/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root #MAIN.ShowTopic > .ad, :root a[href^="http://findersocket.com/"], :root a[href^="http://cdn3.adexprts.com/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="http://n.admagnet.net/"], :root a[href^="http://connectlinking6.com/"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://bc.vc/?r="], :root a[href^="//www.mgid.com/"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root .__y_inner > .__y_item, :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"], :root AMP-AD, :root .widget-pane-section-result[data-result-ad-type], :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, :root .trc_rbox_div .syndicatedItemUB, :root .ob_container .item-container-obpd, :root a[href^="http://centertrust.xyz/"], :root .trc_rbox_div .syndicatedItem, :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root #tads + div + .c, :root a[href^="http://www.accuserveadsystem.com/accuserve-go.php?"], :root a[href^="http://c.ketads.com/"], :root .trc_rbox .syndicatedItem, :root a[href^="http://pwrads.net/"], :root #mn div[style="position:relative"] > #center_col > div > ._dPg, :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"], :root a[href^="http://www.fbooksluts.com/"], :root a[href^="http://c.actiondesk.com/"], :root .ra[align="right"][width="30%"], :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root #main-content > [style="padding:10px 0 0 0 !important;"], :root a[href^="http://www.webtrackerplus.com/"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root a[href^="http://ad.au.doubleclick.net/"], :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root #topstuff > #tads, :root a[href^="http://www.1clickmoviedownloader.info/"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c, :root a[href^="http://affiliate.godaddy.com/"], :root #mn #center_col > div > h2.spon:first-child + ol:last-child, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.downloadweb.org/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun, :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root a[href^="http://www.yourfuckbook.com/?"], :root a[href^="http://ads.sprintrade.com/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root a[href^="http://ad-apac.doubleclick.net/"], :root .gbfwa > div[class$="_item"], :root a[href^="http://prochina.space/"], :root a[href^="http://www.uniblue.com/cm/"], :root a[data-redirect^="http://click.plista.com/pets"], :root #rhs_block > script + .c._oc._Ve.rhsvw, :root .rscontainer > .ellip, :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="http://stateresolver.link/"], :root .__ywl .__y_item, :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root a[href^="http://www.ireel.com/signup?ref"], :root #center_col > #resultStats + #tads, :root .__yinit .__y_item, :root [ad-id^="googlead"], :root a[href^="http://adlev.neodatagroup.com/"], :root .ra[align="left"][width="30%"], :root a[href^="https://trackjs.com/?utm_source"], :root AFS-AD, :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root #cnt #center_col > #res > #topstuff > .ts, :root iframe[id^="google_ads_frame"], :root a[href^="http://www.dealcent.com/register.php?affid="], :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root .trc_rbox_div a[target="_blank"][href^="http://tab"], :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root #rhs_block .mod > .gws-local-hotels__booking-module, :root a[href^="http://banners.victor.com/processing/"], :root a[href*="googleme.eu"], :root .mod > ._jH + .rscontainer, :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"], :root .Mpopup + #Mad > #MadZone, :root a[href^="http://www.TwinPlan.com/AF_"], :root a[href^="http://landingpagegenius.com/"], :root a[href^="http://www.streamtunerhd.com/signup?"], :root #ssmiwdiv[jsdisplay], :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"], :root a[href^="http://paid.outbrain.com/network/redir?"], :root #ads > .dose > .dosesingle, :root a[href^="http://easydownload4you.com/"], :root #rhs_block > #mbEnd, :root #center_col > #\5f Emc, :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root div[id^="dfp-ad-"], :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root .rc-cta[data-target], :root a[href^="http://hd-plugins.com/download/"], :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"], :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5, :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root #center_col > #resultStats + div + #res + #tads, :root .nrelate .nr_partner, :root a[href^="http://bonusfapturbo.nmvsite.com/"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root #mn div[style="position:relative"] > #center_col > ._Ak, :root a[href^="http://www.adxpansion.com"], :root div[id^="dfp-slot-"], :root .l-container > #fishtank, :root a[href*="/adrotate-out.php?"], :root a[href^="http://wgpartner.com/"], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root #center_col > #resultStats + #tads + #res + #tads, :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="http://t.mdn2015x1.com/"], :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="http://dwn.pushtraffic.net/"], :root a[href$="/vghd.shtml"], :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, :root p[id^="div-gpt-ad-"], :root #assetsListings[style="display: block;"], :root #header + #content > #left > #rlblock_left, :root a[href*="emprestimo.eu"], :root #content > #right > .dose > .dosesingle { display: none !important; }</style></head>
+  <body class="bd-docs" data-spy="scroll" data-target=".bd-sidenav-active">
+    <a id="skippy" class="sr-only sr-only-focusable" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+  <a class="navbar-brand mr-0 mr-md-2" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/index.html" aria-label="Bootstrap">
+    <svg class="d-block" width="36" height="36" viewBox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false"><title>Bootstrap</title><path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"></path><path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z"></path></svg>
+
+  </a>
+
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+      <li class="nav-item">
+        <a class="nav-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/index.html" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Bootstrap&#39;);">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/index.html" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Docs&#39;);">Documentation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/examples/index.html" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Examples&#39;);">Examples</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://themes.getbootstrap.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Themes&#39;);" target="_blank" rel="noopener">Themes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://jobs.getbootstrap.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Jobs&#39;);" target="_blank" rel="noopener">Jobs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://expo.getbootstrap.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Expo&#39;);" target="_blank" rel="noopener">Expo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://blog.getbootstrap.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Navbar&#39;, &#39;Community links&#39;, &#39;Blog&#39;);" target="_blank" rel="noopener">Blog</a>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+    <li class="nav-item dropdown">
+      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        v4.0
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+        <a class="dropdown-item active" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/index.html">Latest (4.x)</a>
+        <a class="dropdown-item" href="https://v4-alpha.getbootstrap.com/">v4 Alpha 6</a>
+        <a class="dropdown-item" href="https://getbootstrap.com/docs/3.3/">v3.3.7</a>
+        <a class="dropdown-item" href="https://getbootstrap.com/2.3.2/">v2.3.2</a>
+      </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 499.36" focusable="false"><title>GitHub</title><path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z" fill="currentColor" fill-rule="evenodd"></path></svg>
+
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://twitter.com/getbootstrap" target="_blank" rel="noopener" aria-label="Twitter">
+        <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 416.32" focusable="false"><title>Twitter</title><path d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92" fill="currentColor"></path></svg>
+
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link p-2" href="https://bootstrap-slack.herokuapp.com/" target="_blank" rel="noopener" aria-label="Slack">
+        <svg class="navbar-nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" focusable="false"><title>Slack</title><path fill="currentColor" d="M210.787 234.832l68.31-22.883 22.1 65.977-68.309 22.882z"></path><path d="M490.54 185.6C437.7 9.59 361.6-31.34 185.6 21.46S-31.3 150.4 21.46 326.4 150.4 543.3 326.4 490.54 543.34 361.6 490.54 185.6zM401.7 299.8l-33.15 11.05 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.38-68.36 22.92 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.43-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.5-13.92 2.87-29.06 16.78-33.56l33.12-11.03-22.1-65.9-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.48-13.93 2.89-29.07 16.81-33.58l33.15-11.05-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.46 34.38 68.36-22.92-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.47 34.42 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.87 29.06-16.78 33.56L329.7 194.6l22.1 65.9 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.88 29.07-16.81 33.57z" fill="currentColor"></path></svg>
+
+      </a>
+    </li>
+  </ul>
+
+  <a class="btn btn-bd-yellow d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://github.com/twbs/bootstrap/archive/v4.0.0-beta.zip">Download</a>
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <form class="bd-search d-flex align-items-center">
+  <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" class="form-control ds-input" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-labelledby="search-input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="ds-dataset-1"></div></span></span>
+  <button class="btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs avigation">
+    <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+
+  </button>
+</form>
+
+<nav class="collapse bd-links" id="bd-docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+
+  <div class="bd-toc-item ">
+      <a class="bd-toc-link" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/introduction/index.html">
+        Getting started
+      </a>
+
+      <ul class="nav bd-sidenav">
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/introduction/index.html">
+              Introduction
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/download/index.html">
+              Download
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/contents/index.html">
+              Contents
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/browsers-devices/index.html">
+              Browsers &amp; devices
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/javascript/index.html">
+              JavaScript
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/options/index.html">
+              Options
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/build-tools/index.html">
+              Build tools
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/webpack/index.html">
+              Webpack
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/accessibility/index.html">
+              Accessibility
+            </a>
+
+            
+          </li>
+        
+      </ul>
+    </div>
+  
+  
+  
+  
+  
+
+  
+
+  <div class="bd-toc-item ">
+      <a class="bd-toc-link" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/layout/overview/index.html">
+        Layout
+      </a>
+
+      <ul class="nav bd-sidenav">
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/layout/overview/index.html">
+              Overview
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/layout/grid/index.html">
+              Grid
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/layout/media-object/index.html">
+              Media object
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/layout/utilities-for-layout/index.html">
+              Utilities for layout
+            </a>
+
+            
+          </li>
+        
+      </ul>
+    </div>
+  
+  
+  
+  
+  
+
+  
+
+  <div class="bd-toc-item ">
+      <a class="bd-toc-link" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/content/reboot/index.html">
+        Content
+      </a>
+
+      <ul class="nav bd-sidenav">
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/content/reboot/index.html">
+              Reboot
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/content/typography/index.html">
+              Typography
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/content/code/index.html">
+              Code
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/content/images/index.html">
+              Images
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/content/tables/index.html">
+              Tables
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/content/figures/index.html">
+              Figures
+            </a>
+
+            
+          </li>
+        
+      </ul>
+    </div>
+  
+  
+  
+  
+  
+
+  
+
+  <div class="bd-toc-item active">
+      <a class="bd-toc-link" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/alerts/index.html">
+        Components
+      </a>
+
+      <ul class="nav bd-sidenav">
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/alerts/index.html">
+              Alerts
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/badge/index.html">
+              Badge
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/breadcrumb/index.html">
+              Breadcrumb
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/buttons/index.html">
+              Buttons
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/button-group/index.html">
+              Button group
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/card/index.html">
+              Card
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/carousel/index.html">
+              Carousel
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/collapse/index.html">
+              Collapse
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/dropdowns/index.html">
+              Dropdowns
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/forms/index.html">
+              Forms
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/input-group/index.html">
+              Input group
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/jumbotron/index.html">
+              Jumbotron
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/list-group/index.html">
+              List group
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="active bd-sidenav-active">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html">
+              Modal
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/navs/index.html">
+              Navs
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/navbar/index.html">
+              Navbar
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/pagination/index.html">
+              Pagination
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/popovers/index.html">
+              Popovers
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/progress/index.html">
+              Progress
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/scrollspy/index.html">
+              Scrollspy
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/tooltips/index.html">
+              Tooltips
+            </a>
+
+            
+          </li>
+        
+      </ul>
+    </div>
+  
+  
+  
+  
+  
+
+  
+
+  <div class="bd-toc-item ">
+      <a class="bd-toc-link" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/borders/index.html">
+        Utilities
+      </a>
+
+      <ul class="nav bd-sidenav">
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/borders/index.html">
+              Borders
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/clearfix/index.html">
+              Clearfix
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/close-icon/index.html">
+              Close icon
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/colors/index.html">
+              Colors
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/display/index.html">
+              Display
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/embed/index.html">
+              Embed
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/flex/index.html">
+              Flex
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/float/index.html">
+              Float
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/image-replacement/index.html">
+              Image replacement
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/position/index.html">
+              Position
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/screenreaders/index.html">
+              Screenreaders
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/sizing/index.html">
+              Sizing
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/spacing/index.html">
+              Spacing
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/text/index.html">
+              Text
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/vertical-align/index.html">
+              Vertical align
+            </a>
+
+            
+          </li>
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/utilities/visibility/index.html">
+              Visibility
+            </a>
+
+            
+          </li>
+        
+      </ul>
+    </div>
+  
+  
+  
+  
+  
+
+  
+
+  <div class="bd-toc-item ">
+      <a class="bd-toc-link" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/extend/icons/index.html">
+        Extend
+      </a>
+
+      <ul class="nav bd-sidenav">
+        
+          
+          
+
+          
+
+          <li class="">
+            <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/extend/icons/index.html">
+              Icons
+            </a>
+
+            
+          </li>
+        
+      </ul>
+    </div>
+  
+  
+  
+  
+  
+
+  
+
+  <div class="bd-toc-item ">
+      <a class="bd-toc-link" href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/migration/index.html">
+        Migration
+      </a>
+
+      <ul class="nav bd-sidenav">
+        
+      </ul>
+    </div>
+  
+</nav>
+
+        </div>
+
+        
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#how-it-works">How it works</a></li>
+<li class="toc-entry toc-h2"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#examples">Examples</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modal-components">Modal components</a>
+<ul>
+<ul>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modal-title">Modal title</a></li>
+</ul>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#live-demo">Live demo</a>
+<ul>
+<ul>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modal-title-1">Modal title</a></li>
+</ul>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#scrolling-long-content">Scrolling long content</a>
+<ul>
+<ul>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modal-title-2">Modal title</a></li>
+</ul>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#tooltips-and-popovers">Tooltips and popovers</a>
+<ul>
+<ul>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modal-title-3">Modal title</a></li>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#popover-in-a-modal">Popover in a modal</a></li>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#tooltips-in-a-modal">Tooltips in a modal</a></li>
+</ul>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#using-the-grid">Using the grid</a>
+<ul>
+<ul>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#grids-in-modals">Grids in modals</a></li>
+</ul>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#varying-modal-content">Varying modal content</a>
+<ul>
+<ul>
+<li class="toc-entry toc-h5"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#new-message">New message</a></li>
+</ul>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#remove-animation">Remove animation</a></li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#dynamic-heights">Dynamic heights</a></li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#accessibility">Accessibility</a></li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#embedding-youtube-videos">Embedding YouTube videos</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#optional-sizes">Optional sizes</a>
+<ul>
+<ul>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#large-modal">Large modal</a></li>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#small-modal">Small modal</a></li>
+</ul>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#usage">Usage</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#via-data-attributes">Via data attributes</a></li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#via-javascript">Via JavaScript</a></li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#options">Options</a></li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#methods">Methods</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#asynchronous-methods-and-transitions">Asynchronous methods and transitions</a></li>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modaloptions">.modal(options)</a></li>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modaltoggle">.modal('toggle')</a></li>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modalshow">.modal('show')</a></li>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modalhide">.modal('hide')</a></li>
+<li class="toc-entry toc-h4"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modalhandleupdate">.modal('handleUpdate')</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#events">Events</a></li>
+</ul>
+</li>
+</ul>
+          </div>
+        
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <h1 class="bd-title" id="content"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#content" aria-label="Anchor link for: content" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Modal</h1>
+          <p class="bd-lead">Use Bootstrap's JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
+          <script async="" type="text/javascript" src="./Modal_files/carbonf863.js" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="http://srv.carbonads.net/ads/click/x/GTND42QECW7I523ECTS4YKQMCTBIV23JCTYIEZ3JCWYDPKJMF6SDV2QKC6BIT2QICA7DVK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:getbootstrapcom;&amp;encredirect=https%3A%2F%2Fslack.com%2Flp%3Fcvosrc%3Ddisplay.carbon.green%20dev%26utm_source%3Dcarbon%26utm_medium%3Ddisplay%26utm_campaign%3Dgreen%20dev%26c3ch%3DCarbon%20Networks%26c3nid%3DGreen%20dev" class="carbon-img" target="_blank" rel="noopener"><img src="https://assets.servedby-buysellads.com/p/manage/asset/id/32054" alt="" border="0" height="100" width="130" style="max-width: 130px; display: none !important;"></a><a href="http://srv.carbonads.net/ads/click/x/GTND42QECW7I523ECTS4YKQMCTBIV23JCTYIEZ3JCWYDPKJMF6SDV2QKC6BIT2QICA7DVK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:getbootstrapcom;&amp;encredirect=https%3A%2F%2Fslack.com%2Flp%3Fcvosrc%3Ddisplay.carbon.green%20dev%26utm_source%3Dcarbon%26utm_medium%3Ddisplay%26utm_campaign%3Dgreen%20dev%26c3ch%3DCarbon%20Networks%26c3nid%3DGreen%20dev" class="carbon-text" target="_blank" rel="noopener">All the tools your team needs in one place. Slack: Where work happens.</a></span><a href="http://carbonads.net/?utm_source=getbootstrapcom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank">ads via Carbon</a><img src="https://slack.sp1.convertro.com/view/vt/v1/slack/0/cvo.gif?cvosrc=display.carbon.green%20dev&amp;utm_source=carbon&amp;utm_medium=display&amp;utm_campaign=green%20dev" border="0" height="1" width="1" style="display: none;"><img src="https://569-img.c3tag.com/v.gif?cid=569&amp;c3ch=Carbon%20Networks&amp;c3nid=Green%20dev" border="0" height="1" width="1" style="display: none;"></span></div>
+
+          <a class="dashAnchor" name="//apple_ref/Section/How%20it%20works"></a><h2 id="how-it-works"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#how-it-works" aria-label="Anchor link for: how it works" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>How it works</h2>
+
+<p>Before getting started with Bootstrap’s modal component, be sure to read the following as our menu options have recently changed.</p>
+
+<ul>
+  <li>Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the document and remove scroll from the <code class="highlighter-rouge">&lt;body&gt;</code> so that modal content scrolls instead.</li>
+  <li>Clicking on the modal “backdrop” will automatically close the modal.</li>
+  <li>Bootstrap only supports one modal window at a time. Nested modals aren’t supported as we believe them to be poor user experiences.</li>
+  <li>Modals use <code class="highlighter-rouge">position: fixed</code>, which can sometimes be a bit particular about its rendering. Whenever possible, place your modal HTML in a top-level position to avoid potential interference from other elements. You’ll likely run into issues when nesting a <code class="highlighter-rouge">.modal</code> within another fixed element.</li>
+  <li>Once again, due to <code class="highlighter-rouge">position: fixed</code>, there are some caveats with using modals on mobile devices. <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/getting-started/browsers-devices/index.html#modals-and-dropdowns-on-mobile">See our browser support docs</a> for details.</li>
+  <li>Lastly, the <code class="highlighter-rouge">autofocus</code> HTML attribute has no effect in modals. Here’s how you can achieve the same effect with custom JavaScript.</li>
+</ul>
+
+<p>Keep reading for demos and usage guidelines.</p>
+
+<ul>
+  <li>Due to how HTML5 defines its semantics, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-autofocus">the <code class="highlighter-rouge">autofocus</code> HTML attribute</a> has no effect in Bootstrap modals. To achieve the same effect, use some custom JavaScript:</li>
+</ul>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'shown.bs.modal'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">'#myInput'</span><span class="p">).</span><span class="nx">focus</span><span class="p">()</span>
+<span class="p">})</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Examples"></a><h2 id="examples"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#examples" aria-label="Anchor link for: examples" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Examples</h2>
+
+<a class="dashAnchor" name="//apple_ref/Section/Modal%20components"></a><h3 id="modal-components"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modal-components" aria-label="Anchor link for: modal components" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Modal components</h3>
+
+<p>Below is a <em>static</em> modal example (meaning its <code class="highlighter-rouge">position</code> and <code class="highlighter-rouge">display</code> have been overridden). Included are the modal header, modal body (required for <code class="highlighter-rouge">padding</code>), and modal footer (optional). We ask that you include modal headers with dismiss actions whenever possible, or provide another explicit dismiss action.</p>
+
+<div class="bd-example bd-example-modal">
+  <div class="modal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-dialog"</span> <span class="na">role=</span><span class="s">"document"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-content"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-header"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"modal-title"</span><span class="nt">&gt;</span>Modal title<span class="nt">&lt;/h5&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"close"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span> <span class="na">aria-label=</span><span class="s">"Close"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-body"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Modal body text goes here.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-footer"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Save changes<span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span><span class="nt">&gt;</span>Close<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Live%20demo"></a><h3 id="live-demo"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#live-demo" aria-label="Anchor link for: live demo" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Live demo</h3>
+
+<p>Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.</p>
+
+<div id="exampleModalLive" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLiveLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Woohoo, you're reading this text in a modal!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bd-example">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLive">
+    Launch demo modal
+  </button>
+</div>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Button trigger modal --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#exampleModal"</span><span class="nt">&gt;</span>
+  Launch demo modal
+<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Modal --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal fade"</span> <span class="na">id=</span><span class="s">"exampleModal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-labelledby=</span><span class="s">"exampleModalLabel"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-dialog"</span> <span class="na">role=</span><span class="s">"document"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-content"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-header"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"modal-title"</span> <span class="na">id=</span><span class="s">"exampleModalLabel"</span><span class="nt">&gt;</span>Modal title<span class="nt">&lt;/h5&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"close"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span> <span class="na">aria-label=</span><span class="s">"Close"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-body"</span><span class="nt">&gt;</span>
+        ...
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-footer"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span><span class="nt">&gt;</span>Close<span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Save changes<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Scrolling%20long%20content"></a><h3 id="scrolling-long-content"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#scrolling-long-content" aria-label="Anchor link for: scrolling long content" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Scrolling long content</h3>
+
+<p>When modals become too long for the user’s viewport or device, they scroll independent of the page itself. Try the demo below to see what we mean.</p>
+
+<div id="exampleModalLong" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bd-example">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+    Launch demo modal
+  </button>
+</div>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Button trigger modal --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#exampleModalLong"</span><span class="nt">&gt;</span>
+  Launch demo modal
+<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Modal --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal fade"</span> <span class="na">id=</span><span class="s">"exampleModalLong"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-labelledby=</span><span class="s">"exampleModalLongTitle"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-dialog"</span> <span class="na">role=</span><span class="s">"document"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-content"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-header"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"modal-title"</span> <span class="na">id=</span><span class="s">"exampleModalLongTitle"</span><span class="nt">&gt;</span>Modal title<span class="nt">&lt;/h5&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"close"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span> <span class="na">aria-label=</span><span class="s">"Close"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-body"</span><span class="nt">&gt;</span>
+        ...
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-footer"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span><span class="nt">&gt;</span>Close<span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Save changes<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Tooltips%20and%20popovers"></a><h3 id="tooltips-and-popovers"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#tooltips-and-popovers" aria-label="Anchor link for: tooltips and popovers" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Tooltips and popovers</h3>
+
+<p><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/tooltips/index.html">Tooltips</a> and <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/popovers/index.html">popovers</a> can be placed within modals as needed. When modals are closed, any tooltips and popovers within are also automatically dismissed.</p>
+
+<div id="exampleModalPopovers" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalPopoversLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPopoversLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>Popover in a modal</h5>
+        <p>This <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#" role="button" class="btn btn-secondary popover-test" title="" data-content="Popover body content is set in this attribute." data-container="#exampleModalPopovers" data-original-title="Popover title">button</a> triggers a popover on click.</p>
+        <hr>
+        <h5>Tooltips in a modal</h5>
+        <p><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#" class="tooltip-test" title="" data-container="#exampleModalPopovers" data-original-title="Tooltip">This link</a> and <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#" class="tooltip-test" title="" data-container="#exampleModalPopovers" data-original-title="Tooltip">that link</a> have tooltips on hover.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bd-example">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalPopovers">
+    Launch demo modal
+  </button>
+</div>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-body"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h5&gt;</span>Popover in a modal<span class="nt">&lt;/h5&gt;</span>
+  <span class="nt">&lt;p&gt;</span>This <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary popover-test"</span> <span class="na">title=</span><span class="s">"Popover title"</span> <span class="na">data-content=</span><span class="s">"Popover body content is set in this attribute."</span><span class="nt">&gt;</span>button<span class="nt">&lt;/a&gt;</span> triggers a popover on click.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;hr&gt;</span>
+  <span class="nt">&lt;h5&gt;</span>Tooltips in a modal<span class="nt">&lt;/h5&gt;</span>
+  <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"tooltip-test"</span> <span class="na">title=</span><span class="s">"Tooltip"</span><span class="nt">&gt;</span>This link<span class="nt">&lt;/a&gt;</span> and <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"tooltip-test"</span> <span class="na">title=</span><span class="s">"Tooltip"</span><span class="nt">&gt;</span>that link<span class="nt">&lt;/a&gt;</span> have tooltips on hover.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Using%20the%20grid"></a><h3 id="using-the-grid"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#using-the-grid" aria-label="Anchor link for: using the grid" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Using the grid</h3>
+
+<p>Utilize the Bootstrap grid system within a modal by nesting <code class="highlighter-rouge">.container-fluid</code> within the <code class="highlighter-rouge">.modal-body</code>. Then, use the normal grid system classes as you would anywhere else.</p>
+
+<div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="gridModalLabel">Grids in modals</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid bd-example-row">
+          <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4 ml-auto">.col-md-4 .ml-auto</div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 ml-auto">.col-md-3 .ml-auto</div>
+            <div class="col-md-2 ml-auto">.col-md-2 .ml-auto</div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ml-auto">.col-md-6 .ml-auto</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-9">
+              Level 1: .col-sm-9
+              <div class="row">
+                <div class="col-8 col-sm-6">
+                  Level 2: .col-8 .col-sm-6
+                </div>
+                <div class="col-4 col-sm-6">
+                  Level 2: .col-4 .col-sm-6
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bd-example">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#gridSystemModal">
+  Launch demo modal
+</button>
+</div>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-body"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container-fluid"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4"</span><span class="nt">&gt;</span>.col-md-4<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-4 ml-auto"</span><span class="nt">&gt;</span>.col-md-4 .ml-auto<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-3 ml-auto"</span><span class="nt">&gt;</span>.col-md-3 .ml-auto<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-2 ml-auto"</span><span class="nt">&gt;</span>.col-md-2 .ml-auto<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-6 ml-auto"</span><span class="nt">&gt;</span>.col-md-6 .ml-auto<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        Level 1: .col-sm-9
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-8 col-sm-6"</span><span class="nt">&gt;</span>
+            Level 2: .col-8 .col-sm-6
+          <span class="nt">&lt;/div&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 col-sm-6"</span><span class="nt">&gt;</span>
+            Level 2: .col-4 .col-sm-6
+          <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Varying%20modal%20content"></a><h3 id="varying-modal-content"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#varying-modal-content" aria-label="Anchor link for: varying modal content" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Varying modal content</h3>
+
+<p>Have a bunch of buttons that all trigger the same modal with slightly different contents? Use <code class="highlighter-rouge">event.relatedTarget</code> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">HTML <code class="highlighter-rouge">data-*</code> attributes</a> (possibly <a href="https://api.jquery.com/data/">via jQuery</a>) to vary the contents of the modal depending on which button was clicked.</p>
+
+<p>Below is a live demo followed by example HTML and JavaScript. For more information, <a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#events">read the modal events docs</a> for details on <code class="highlighter-rouge">relatedTarget</code>.</p>
+
+<div class="bd-example" data-example-id="">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="form-control-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="form-control-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#exampleModal"</span> <span class="na">data-whatever=</span><span class="s">"@mdo"</span><span class="nt">&gt;</span>Open modal for @mdo<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#exampleModal"</span> <span class="na">data-whatever=</span><span class="s">"@fat"</span><span class="nt">&gt;</span>Open modal for @fat<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#exampleModal"</span> <span class="na">data-whatever=</span><span class="s">"@getbootstrap"</span><span class="nt">&gt;</span>Open modal for @getbootstrap<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal fade"</span> <span class="na">id=</span><span class="s">"exampleModal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-labelledby=</span><span class="s">"exampleModalLabel"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-dialog"</span> <span class="na">role=</span><span class="s">"document"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-content"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-header"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"modal-title"</span> <span class="na">id=</span><span class="s">"exampleModalLabel"</span><span class="nt">&gt;</span>New message<span class="nt">&lt;/h5&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"close"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span> <span class="na">aria-label=</span><span class="s">"Close"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-body"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;form&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"recipient-name"</span> <span class="na">class=</span><span class="s">"form-control-label"</span><span class="nt">&gt;</span>Recipient:<span class="nt">&lt;/label&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"recipient-name"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"message-text"</span> <span class="na">class=</span><span class="s">"form-control-label"</span><span class="nt">&gt;</span>Message:<span class="nt">&lt;/label&gt;</span>
+            <span class="nt">&lt;textarea</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"message-text"</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/form&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-footer"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary"</span> <span class="na">data-dismiss=</span><span class="s">"modal"</span><span class="nt">&gt;</span>Close<span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Send message<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#exampleModal'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'show.bs.modal'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">button</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">relatedTarget</span><span class="p">)</span> <span class="c1">// Button that triggered the modal</span>
+  <span class="kd">var</span> <span class="nx">recipient</span> <span class="o">=</span> <span class="nx">button</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="s1">'whatever'</span><span class="p">)</span> <span class="c1">// Extract info from data-* attributes</span>
+  <span class="c1">// If necessary, you could initiate an AJAX request here (and then do the updating in a callback).</span>
+  <span class="c1">// Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.</span>
+  <span class="kd">var</span> <span class="nx">modal</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">)</span>
+  <span class="nx">modal</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">'.modal-title'</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="s1">'New message to '</span> <span class="o">+</span> <span class="nx">recipient</span><span class="p">)</span>
+  <span class="nx">modal</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">'.modal-body input'</span><span class="p">).</span><span class="nx">val</span><span class="p">(</span><span class="nx">recipient</span><span class="p">)</span>
+<span class="p">})</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Remove%20animation"></a><h3 id="remove-animation"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#remove-animation" aria-label="Anchor link for: remove animation" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Remove animation</h3>
+
+<p>For modals that simply appear rather than fade in to view, remove the <code class="highlighter-rouge">.fade</code> class from your modal markup.</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-labelledby=</span><span class="s">"..."</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Dynamic%20heights"></a><h3 id="dynamic-heights"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#dynamic-heights" aria-label="Anchor link for: dynamic heights" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Dynamic heights</h3>
+
+<p>If the height of a modal changes while it is open, you should call <code class="highlighter-rouge">$('#myModal').data('bs.modal').handleUpdate()</code> or <code class="highlighter-rouge">$('#myModal').modal('handleUpdate')</code> to readjust the modal’s position in case a scrollbar appears.</p>
+
+<a class="dashAnchor" name="//apple_ref/Section/Accessibility"></a><h3 id="accessibility"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#accessibility" aria-label="Anchor link for: accessibility" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Accessibility</h3>
+
+<p>Be sure to add <code class="highlighter-rouge">role="dialog"</code> and <code class="highlighter-rouge">aria-labelledby="..."</code>, referencing the modal title, to <code class="highlighter-rouge">.modal</code>, and <code class="highlighter-rouge">role="document"</code> to the <code class="highlighter-rouge">.modal-dialog</code> itself. Additionally, you may give a description of your modal dialog with <code class="highlighter-rouge">aria-describedby</code> on <code class="highlighter-rouge">.modal</code>.</p>
+
+<a class="dashAnchor" name="//apple_ref/Section/Embedding%20YouTube%20videos"></a><h3 id="embedding-youtube-videos"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#embedding-youtube-videos" aria-label="Anchor link for: embedding youtube videos" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Embedding YouTube videos</h3>
+
+<p>Embedding YouTube videos in modals requires additional JavaScript not in Bootstrap to automatically stop playback and more. <a href="https://stackoverflow.com/questions/18622508/bootstrap-3-and-youtube-in-modal">See this helpful Stack Overflow post</a> for more information.</p>
+
+<a class="dashAnchor" name="//apple_ref/Section/Optional%20sizes"></a><h2 id="optional-sizes"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#optional-sizes" aria-label="Anchor link for: optional sizes" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Optional sizes</h2>
+
+<p>Modals have two optional sizes, available via modifier classes to be placed on a <code class="highlighter-rouge">.modal-dialog</code>. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports.</p>
+
+<div class="bd-example">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+</div>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Large modal --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">".bd-example-modal-lg"</span><span class="nt">&gt;</span>Large modal<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal fade bd-example-modal-lg"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-labelledby=</span><span class="s">"myLargeModalLabel"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-dialog modal-lg"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-content"</span><span class="nt">&gt;</span>
+      ...
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="c">&lt;!-- Small modal --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">".bd-example-modal-sm"</span><span class="nt">&gt;</span>Small modal<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal fade bd-example-modal-sm"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-labelledby=</span><span class="s">"mySmallModalLabel"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-dialog modal-sm"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal-content"</span><span class="nt">&gt;</span>
+      ...
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="mySmallModalLabel">Small modal</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+<a class="dashAnchor" name="//apple_ref/Section/Usage"></a><h2 id="usage"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#usage" aria-label="Anchor link for: usage" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Usage</h2>
+
+<p>The modal plugin toggles your hidden content on demand, via data attributes or JavaScript. It also adds <code class="highlighter-rouge">.modal-open</code> to the <code class="highlighter-rouge">&lt;body&gt;</code> to override default scrolling behavior and generates a <code class="highlighter-rouge">.modal-backdrop</code> to provide a click area for dismissing shown modals when clicking outside the modal.</p>
+
+<a class="dashAnchor" name="//apple_ref/Section/Via%20data%20attributes"></a><h3 id="via-data-attributes"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#via-data-attributes" aria-label="Anchor link for: via data attributes" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Via data attributes</h3>
+
+<p>Activate a modal without writing JavaScript. Set <code class="highlighter-rouge">data-toggle="modal"</code> on a controller element, like a button, along with a <code class="highlighter-rouge">data-target="#foo"</code> or <code class="highlighter-rouge">href="#foo"</code> to target a specific modal to toggle.</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"modal"</span> <span class="na">data-target=</span><span class="s">"#myModal"</span><span class="nt">&gt;</span>Launch modal<span class="nt">&lt;/button&gt;</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Via%20JavaScript"></a><h3 id="via-javascript"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#via-javascript" aria-label="Anchor link for: via javascript" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Via JavaScript</h3>
+
+<p>Call a modal with id <code class="highlighter-rouge">myModal</code> with a single line of JavaScript:</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Options"></a><h3 id="options"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#options" aria-label="Anchor link for: options" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Options</h3>
+
+<p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-backdrop=""</code>.</p>
+
+<table class="table table-bordered table-striped table-responsive">
+  <thead>
+    <tr>
+      <th style="width: 100px;">Name</th>
+      <th style="width: 50px;">Type</th>
+      <th style="width: 50px;">Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>backdrop</td>
+      <td>boolean or the string <code>'static'</code></td>
+      <td>true</td>
+      <td>Includes a modal-backdrop element. Alternatively, specify <code>static</code> for a backdrop which doesn't close the modal on click.</td>
+    </tr>
+    <tr>
+      <td>keyboard</td>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Closes the modal when escape key is pressed</td>
+    </tr>
+    <tr>
+      <td>focus</td>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Puts the focus on the modal when initialized.</td>
+    </tr>
+    <tr>
+      <td>show</td>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Shows the modal when initialized.</td>
+    </tr>
+  </tbody>
+</table>
+
+<a class="dashAnchor" name="//apple_ref/Section/Methods"></a><h3 id="methods"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#methods" aria-label="Anchor link for: methods" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Methods</h3>
+
+<div class="bd-callout bd-callout-danger">
+<h4 id="asynchronous-methods-and-transitions">Asynchronous methods and transitions</h4>
+
+<p>All API methods are <strong>asynchronous</strong> and start a <strong>transition</strong>. They returns to the caller as soon as the transition is started but <strong>before it ends</strong>. In addition, a method call on a <strong>transitioning component will be ignored</strong>.</p>
+
+<p><a href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/getting-started/javascript/index.html">See our Javascript documentation for more informations.</a></p>
+</div>
+
+<a class="dashAnchor" name="//apple_ref/Section/%2Emodal%28options%29"></a><h4 id="modaloptions"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modaloptions" aria-label="Anchor link for: modaloptions" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a><code class="highlighter-rouge">.modal(options)</code></h4>
+
+<p>Activates your content as a modal. Accepts an optional options <code class="highlighter-rouge">object</code>.</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">({</span>
+  <span class="na">keyboard</span><span class="p">:</span> <span class="kc">false</span>
+<span class="p">})</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/%2Emodal%28%27toggle%27%29"></a><h4 id="modaltoggle"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modaltoggle" aria-label="Anchor link for: modaltoggle" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a><code class="highlighter-rouge">.modal('toggle')</code></h4>
+
+<p>Manually toggles a modal. <strong>Returns to the caller before the modal has actually been shown or hidden</strong> (i.e. before the <code class="highlighter-rouge">shown.bs.modal</code> or <code class="highlighter-rouge">hidden.bs.modal</code> event occurs).</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="s1">'toggle'</span><span class="p">)</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/%2Emodal%28%27show%27%29"></a><h4 id="modalshow"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modalshow" aria-label="Anchor link for: modalshow" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a><code class="highlighter-rouge">.modal('show')</code></h4>
+
+<p>Manually opens a modal. <strong>Returns to the caller before the modal has actually been shown</strong> (i.e. before the <code class="highlighter-rouge">shown.bs.modal</code> event occurs).</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="s1">'show'</span><span class="p">)</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/%2Emodal%28%27hide%27%29"></a><h4 id="modalhide"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modalhide" aria-label="Anchor link for: modalhide" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a><code class="highlighter-rouge">.modal('hide')</code></h4>
+
+<p>Manually hides a modal. <strong>Returns to the caller before the modal has actually been hidden</strong> (i.e. before the <code class="highlighter-rouge">hidden.bs.modal</code> event occurs).</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="s1">'hide'</span><span class="p">)</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/%2Emodal%28%27handleUpdate%27%29"></a><h4 id="modalhandleupdate"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#modalhandleupdate" aria-label="Anchor link for: modalhandleupdate" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a><code class="highlighter-rouge">.modal('handleUpdate')</code></h4>
+
+<p>Manually readjust the modal’s position if the height of a modal changes while it is open (i.e. in case a scrollbar appears).</p>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="s1">'handleUpdate'</span><span class="p">)</span></code></pre></figure>
+
+<a class="dashAnchor" name="//apple_ref/Section/Events"></a><h3 id="events"><a class="anchorjs-link " href="http://as-ands-macbook-pro.local:59302/Dash/bcpgbpcx/getbootstrap.com/docs/4.0/components/modal/index.html#events" aria-label="Anchor link for: events" data-anchorjs-icon="" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Events</h3>
+
+<p>Bootstrap’s modal class exposes a few events for hooking into modal functionality. All modal events are fired at the modal itself (i.e. at the <code class="highlighter-rouge">&lt;div class="modal"&gt;</code>).</p>
+
+<table class="table table-bordered table-striped table-responsive">
+  <thead>
+    <tr>
+      <th style="width: 150px;">Event Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>show.bs.modal</td>
+      <td>This event fires immediately when the <code>show</code> instance method is called. If caused by a click, the clicked element is available as the <code>relatedTarget</code> property of the event.</td>
+    </tr>
+    <tr>
+      <td>shown.bs.modal</td>
+      <td>This event is fired when the modal has been made visible to the user (will wait for CSS transitions to complete). If caused by a click, the clicked element is available as the <code>relatedTarget</code> property of the event.</td>
+    </tr>
+    <tr>
+      <td>hide.bs.modal</td>
+      <td>This event is fired immediately when the <code>hide</code> instance method has been called.</td>
+    </tr>
+    <tr>
+      <td>hidden.bs.modal</td>
+      <td>This event is fired when the modal has finished being hidden from the user (will wait for CSS transitions to complete).</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="bd-clipboard"><span class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</span></div><figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'hidden.bs.modal'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// do something...</span>
+<span class="p">})</span></code></pre></figure>
+
+
+        </main>
+      </div>
+    </div>
+
+    <script src="./Modal_files/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="./Modal_files/jquery-slim.min.js"></script>
+
+<script src="./Modal_files/popper.min.js"></script>
+
+
+  <script src="./Modal_files/bootstrap.min.js"></script>
+
+
+
+  <script src="./Modal_files/docs.min.js"></script>
+
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./Modal_files/ie10-viewport-bug-workaround.js"></script>
+<script src="./Modal_files/ie-emulation-modes-warning.js"></script>
+
+
+<script type="text/javascript" src="./Modal_files/docsearch.min.js"></script>
+<script type="text/javascript">
+  var docsearch = docsearch({
+    apiKey: '48cb48b22351bc71ea5f12f4d1ede198',
+    indexName: 'bootstrap-v4',
+    inputSelector: '#search-input',
+    handleSelected: function (input, event, suggestion) {
+      var url = suggestion.url;
+      url = suggestion.isLvl1 ? url.split('#')[0]: url;
+      // If it's a title we remove the anchor so it does not jump.
+      window.location.href = url;
+    },
+    transformData: function (hits) {
+      return hits.map(function (hit) {
+        hit.url = hit.url.replace('https://v4-alpha.getbootstrap.com/', '/docs/4.0');
+        return hit;
+      });
+    },
+    debug: false // Set debug to true if you want to inspect the dropdown
+  });
+</script>
+
+
+<script>
+Holder.addTheme('gray', {
+  bg: '#777',
+  fg: 'rgba(255,255,255,.75)',
+  font: 'Helvetica',
+  fontweight: 'normal'
+})
+</script>
+
+  
+
+<!-- Mirrored from getbootstrap.com/docs/4.0/components/modal/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Aug 2017 11:12:17 GMT -->
+
+</body></html>

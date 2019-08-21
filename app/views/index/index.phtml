@@ -1,0 +1,81 @@
+<div class="page-header" filter-color="" >
+
+    <div class="container" page-header>
+
+        <div class="col-md-4 content-center">
+            <div class="card card-sign card-plain"> 
+                <form class="form" method="post" action="index/index">
+                    <div class="header header-primary text-center">
+                        <div class="logo-container">
+
+                            <H1 class="title"> Club Otaku </H1> 
+                            <div id="fs"><?php $this->flashSession->output() ?></div>
+                            <style>
+                                #fs{background-color: goldenrod;
+                                }
+                            </style>
+
+                        </div>
+                    </div>    <br/> 
+                    <div class="content">
+
+                        <div class="input-group form-group-no-border input-lg">
+                            <span class="input-group-addon">                             
+                                <i class="now-ui-icons ui-1_lock-circle-open" style="color:white;"></i>
+                            </span>
+                            <input type="text" name="nom" style="color:white;" placeholder="Nom..." class="form-control" required />
+                        </div>
+
+
+                        <div class="client">
+                        </div>
+
+                        <br />
+
+                        <div class="server">
+                        </div>
+
+                    </div>
+                    <div class="footer text-center">
+                        <input type="submit" class="btn btn-info btn-lg" style=" border-radius:30px 30px 30px 30px;" value="Valider" />
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+    $(document).ready(function () {
+
+        // Getting socket
+        var socket = io('http://127.0.0.1:8081');
+        // Listening on notification from server
+        socket.on('notification', function (data) {
+            $('.server').append(data);
+        });
+        // Listener on form submit event
+        $(document).on('submit', '.form', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '/',
+                data: $(this).serialize(),
+                success: function (response) {
+                    $('.client').append('A message has been sent to server from this client!<br />');
+                },
+                error: function (response) {
+                    console.log('Something went wrong.');
+                },
+                cache: false
+            });
+            return false;
+        });
+    });
+</script>
